@@ -97,7 +97,6 @@ const AdminDashboard = () => {
     );
     linkElement.click();
   };
-
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;

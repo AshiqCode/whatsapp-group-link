@@ -103,7 +103,7 @@ const WhatsAppGroupPage = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <a
-              href="https://www.instagram.com/shahabaftab2"
+              href="https://www.instagram.com/asjab_music/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-white/80 hover:text-[#25D366] transition-colors border-r border-white/20 pr-6"
@@ -153,6 +153,30 @@ const WhatsAppGroupPage = () => {
               </button>
               <a
                 href="https://www.instagram.com/shahabaftab2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-2.5 text-sm rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg hover:opacity-90 transition-all duration-300 transform hover:scale-[1.02]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+                <span>Contact Owner</span>
+              </a>
+
+              <a
+                href="https://www.instagram.com/asjab_music/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-2.5 text-sm rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg hover:opacity-90 transition-all duration-300 transform hover:scale-[1.02]"

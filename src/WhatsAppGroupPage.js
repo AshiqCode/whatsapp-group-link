@@ -81,9 +81,9 @@ const WhatsAppGroupPage = () => {
     <div
       className="min-h-screen font-sans text-gray-800 bg-repeat"
       style={{
-        backgroundColor: "#e5ddd5",
-        backgroundImage: `url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png')`,
-        backgroundSize: "400px",
+        backgroundColor: "#EFEAE2",
+        backgroundImage:
+          "linear-gradient(180deg, rgba(255,255,255,0.35), rgba(255,255,255,0))",
       }}
     >
       {/* --- NAVBAR --- */}
@@ -92,10 +92,12 @@ const WhatsAppGroupPage = () => {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setIsSidebarOpen(true)}
+              aria-label="Open sidebar menu"
               className="lg:hidden p-2 hover:bg-[#128C7E] rounded-md transition-colors"
             >
               <Menu size={24} />
             </button>
+
             <div className="flex items-center gap-2 font-bold text-xl tracking-tight">
               <MessageCircle className="text-[#25D366]" fill="#25D366" />
               <span>WhatsAppGroups</span>
@@ -243,7 +245,7 @@ const WhatsAppGroupPage = () => {
                         {Math.floor(Math.random() * 200) + 300}+ members
                       </span>
                       <span>•</span>
-                      <span className="text-green-600 font-semibold">
+                      <span className="bg-green-100 text-green-800 px-2 py-0.5 rounded font-semibold">
                         Verified
                       </span>
                     </div>
@@ -252,7 +254,7 @@ const WhatsAppGroupPage = () => {
                     href={group.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#25D366] text-white px-6 py-2.5 rounded-lg text-sm font-black hover:bg-[#128C7E] shadow-sm transition-all"
+                    className="bg-[#25D366] text-black px-6 py-2.5 rounded-lg text-sm font-black hover:bg-[#1ebe5d] shadow-sm transition-all"
                   >
                     JOIN
                   </a>

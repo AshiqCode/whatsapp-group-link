@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 // Import Firebase Compatibility SDK (matching your previous script)
+
 import firebase from "firebase/compat/app";
 import "firebase/compat/database";
 import { PlusCircle, Users, X, Menu, MessageCircle } from "lucide-react";

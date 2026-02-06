@@ -34,7 +34,6 @@ const AdminDashboard = () => {
   const [editingId, setEditingId] = useState(null);
   const [editForm, setEditForm] = useState({ name: "", link: "" });
   const fileInputRef = useRef(null);
-
   useEffect(() => {
     const groupsRef = database.ref("whatsappProject/groups");
     groupsRef.on("value", (snapshot) => {
